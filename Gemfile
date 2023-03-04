@@ -27,7 +27,13 @@ group :development do
   gem "rerun"
 
   gem "pry"
+
 end
+gem "rack-contrib", "~> 2.3"
+
+# More Rack middleware! Used to handle CORS requests
+# https://github.com/cyu/rack-cors
+gem "rack-cors", "~> 1.1"
 
 # These gems will only be used when we are running tests
 group :test do
