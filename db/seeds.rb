@@ -17,6 +17,6 @@ owner = Owner.order('RANDOM()').first
         gender: Faker::Creature::Dog.gender,
         owner_id: owner.id
     )
-end
+end 
 end
 puts "🌱 Done seeding!"
